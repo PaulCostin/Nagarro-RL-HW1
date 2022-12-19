@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#navbar>span {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    justify-content: space-between;
+}
+
+#navbar>span:nth-child(1) {
+    width: 120px;
+}
+
+#navbar>span:nth-child(2)>i {
+    border: 1px solid rgb(130, 130, 130);
+    padding: 9px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(130, 130, 130);
+}
+
+/* Navbar done */
+
+#example {
+    text-align: center;
+    margin: 60px 510px 60px;
+}
+
+#example>h1 {
+    font-weight: 400;
+}
+
+#example>p {
+    color: #7c8184
+}
+
+#example>button {
+    margin: 10px 0;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#example>button:nth-child(3) {
+    background-color: #0275d8;
+
+}
+
+#example>button:nth-child(4) {
+    background-color: #7c8184;
+}
+
+#previews {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 450px;
+    margin: 20px auto 0;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card>p:nth-child(1) {
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #7c8184;
+    height: 200px;
+    width: 450px;
+    font-size: 30px;
+}
+
+.card>p:nth-child(2) {
+    margin: 20px 20px 0;
+}
+
+.card>div,
+.card>div>span,
+.card>div>span>p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card>div {
+    margin: 0 20px 0;
+    justify-content: space-between;
+    color: #7c8184;
+}
+
+.card>div>span>p {
+    border: 2px solid;
+    width: 50px;
+    height: 30px;
+}
+
+.card>div>span>p:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card>div>span>p:nth-child(2) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 50px 30px 20px;
+}
+
+footer>p>a,
+footer>p>a:visited {
+    text-decoration: none;
+    color: #0275d8;
+}
